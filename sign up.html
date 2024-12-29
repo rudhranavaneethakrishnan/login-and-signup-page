@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <style>
+        /* Reset default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body styling */
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image:url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/6-col/img%20(122).jpg");
+            background-repeat:no-repeat;
+            background-size:cover
+        }
+
+        /* Container for the signup form */
+        .signup-container {
+            background-color: rgba(255, 255, 255, 0.9); /* Light white background with slight transparency */
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 600px;
+            height:600px;
+            text-align: center;
+        }
+
+        /* Heading style */
+        h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        /* Input group styling */
+        .input-group {
+            margin-bottom: 15px;
+            text-align: left;
+        }
+
+        /* Label styling */
+        .input-group label {
+            font-size: 14px;
+            color: #333;
+        }
+
+        /* Input field styling */
+        .input-group input {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+
+        /* Button styling */
+        .signup-btn {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .signup-btn:hover {
+            background-color: #334334;
+        }
+
+        /* Link to sign-in page */
+        .signin-link {
+            margin-top: 15px;
+            font-size: 14px;
+            color: #333;
+        }
+
+        .signin-link a {
+            text-decoration: none;
+            color: #4CAF50;
+        }
+
+        .signin-link a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="signup-container">
+        <h2>Create an Account</h2>
+        <form action="#" method="POST">
+            <div class="input-group">
+                <label for="fullname">Full Name</label>
+                <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+            </div>
+            <div class="input-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Create a password" required>
+            </div>
+            <div class="input-group">
+                <label for="confirm-password">Confirm Password</label>
+                <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm your password" required>
+            </div>
+            <button type="submit" class="signup-btn">Sign Up</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
+

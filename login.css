@@ -1,0 +1,142 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set the body style */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image:url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/6-col/img%20(122).jpg");
+    background-repeat:no-repeat;
+    background-size:cover
+}
+
+/* Style the login container */
+.login-container {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    height:600px;
+    text-align: center;
+}
+
+/* Style the heading */
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Style the input fields */
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group label {
+    font-size: 14px;
+    color: #333;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    margin: 7px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Style the login button */
+.login-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background-color: #2d422e;
+}
+
+/* Style the link to sign up */
+.signup-link {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+.signup-link a {
+    text-decoration: underline;
+    color: #4CAF50;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+/* Container for the signup form */
+.signup-container {
+    background-color: rgba(255, 255, 255, 0.9); /* Light white background with slight transparency */
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+/* Heading style */
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Input group styling */
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+/* Label styling */
+.input-group label {
+    font-size: 14px;
+    color: #333;
+}
+
+/* Input field styling */
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
